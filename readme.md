@@ -10,7 +10,7 @@
 参考:[https://blog.csdn.net/xiaoquantouer/article/details/58001960](https://blog.csdn.net/xiaoquantouer/article/details/58001960 "windows环境下用c++实现socket编程")
 
 ## UDP版本
-采用**数据报套接字(SOCK_DGRAM)**
+采用**数据报套接字(SOCK_DGRAM)**。
 
 > SOCK_DGRAM表示无连接的数据传输方式。计算机只管传输数据，不作数据校验，如果数据在传输中损坏，或者没有到达另一台计算机，是没有办法补救的。也就是说，数据错了就错了，无法重传。因为SOCK_DGRAM所做的校验工作少，所以效率比SOCK_STREAM高。
 
